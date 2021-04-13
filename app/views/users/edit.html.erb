@@ -1,4 +1,5 @@
 <%= form_with(model: @user) do |form| %>
+
 <%= form.label :username %>
 <%= form.text_field :username %> <br>
 <%= form.label :email %>
@@ -6,4 +7,5 @@
 <%= form.label :password %>
 <%= form.text_field :password %> <br>
 <%= form.submit  %>
+
 <% end %>
