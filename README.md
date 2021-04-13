@@ -1,23 +1,50 @@
-# README
+# RE-FORMER
 
-“This is part of the Forms Project in The Odin Project’s Ruby on Rails Curriculum. Find it at http://www.theodinproject.com”
+In this project we were practising making forms using RoR form_with helper methods.
 
-Things you may want to cover:
+## Built with
 
-- Ruby version
+- Ruby on Rails
+- Ruby
+- SQLite3
 
-- System dependencies
+## Getting Started
 
-- Configuration
+To get a local copy of the repository please run the following commands on your terminal:
 
-- Database creation
+```
+$ cd <folder>
+```
 
-- Database initialization
+```
+$ git clone https://github.com/MarkoNS1990/re-former
+```
 
-- How to run the test suite
+```
+$ cd re-former
+```
 
-- Services (job queues, cache servers, search engines, etc.)
+```
+$ bundle install
+```
 
-- Deployment instructions
+> Migrating the database
 
-- ...
+```
+$ rails db:migrate
+```
+
+> Start the server
+
+```
+$ rails server
+```
+
+## Authors
+
+<hr>
+- Name :Marko Zecevic
+- Githhub :https://github.com/MarkoNS1990
+
+- Name :Addis Belete
+- Githhub :https://github.com/Addis0943
