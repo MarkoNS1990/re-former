@@ -42,9 +42,30 @@ $ rails server
 
 ## Authors
 
-<hr>
-- Name :Marko Zecevic
-- Githhub :https://github.com/MarkoNS1990
+👤 **Marko Zecevic**
 
-- Name :Addis Belete
-- Githhub :https://github.com/Addis0943
+- GitHub: [@githubhandle](https://github.com/MarkoNS1990)
+
+👤 **Addis Belete**
+
+- GitHub: [@githubhandle](https://github.com/Addis0943)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
