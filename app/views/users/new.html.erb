@@ -1,0 +1,32 @@
+<!--
+<form action = "/users" method = "post" accept-charset = "UTF-8" >
+<label for = "name">Name</label>
+<input type = "text" name = "user[username]" id = "name">
+<label for = "email">Email </label>
+<input type = "email" name = "user[email]" id = "email">
+<label for = "password">Password</label>
+<input type = "password" name = "user[password]" id ="password">
+<input type = "submit" value = "Submit">
+<input type = "hidden" name = "authenticity_token" value = "<%= form_authenticity_token %>">
+</form>
+-->
+<!--
+<h1>Re-former</h1>
+<%= form_with(url: "/users", method: "post") %>
+<%= label_tag(:username, "Name:") %>
+<%= text_field_tag(:username) %>
+<%= label_tag(:email, "Email") %>
+<%= email_field_tag(:email) %>
+<%= label_tag(:password, "Password") %>
+<%= password_field_tag(:password) %>
+<%= submit_tag("Submit") %>
+-->
+<%= form_with(model: @user) do |form| %>
+<%= form.label :username %>
+<%= form.text_field :username %> <br>
+<%= form.label :email %>
+<%= form.text_field :email, placeholder: "example@example.com" %> <br>
+<%= form.label :password %>
+<%= form.text_field :password %> <br>
+<%= form.submit  %>
+<% end %>

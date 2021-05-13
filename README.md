@@ -1,24 +1,71 @@
-# README
+# RE-FORMER
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In this project we were practising making forms using RoR form_with helper methods.
 
-Things you may want to cover:
+## Built with
 
-* Ruby version
+- Ruby on Rails
+- Ruby
+- SQLite3
 
-* System dependencies
+## Getting Started
 
-* Configuration
+To get a local copy of the repository please run the following commands on your terminal:
 
-* Database creation
+```
+$ cd <folder>
+```
 
-* Database initialization
+```
+$ git clone https://github.com/MarkoNS1990/re-former
+```
 
-* How to run the test suite
+```
+$ cd re-former
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+$ bundle install
+```
 
-* Deployment instructions
+> Migrating the database
 
-* ...
+```
+$ rails db:migrate
+```
+
+> Start the server
+
+```
+$ rails server
+```
+
+## Authors
+
+👤 **Marko Zecevic**
+
+- GitHub: [@githubhandle](https://github.com/MarkoNS1990)
+
+👤 **Addis Belete**
+
+- GitHub: [@githubhandle](https://github.com/Addis0943)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
